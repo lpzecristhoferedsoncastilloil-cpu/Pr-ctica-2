@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.0 on win32)" generated="2026-05-25T22:11:03.052828" rpa="false" schemaversion="5">
+<suite id="s1" name="Ejer" source="D:\IA\testing qa\ejer.robot">
+<test id="s1-t1" name="Login Correcto" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-05-25T22:11:03.870965" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-05-25T22:11:03.870514" elapsed="3.078790"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-05-25T22:11:07.000558" elapsed="1.062041"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-25T22:11:08.065884" level="INFO">Typing text 'standard_user' into text field 'id:user-name'.</msg>
+<arg>id:user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-25T22:11:08.064135" elapsed="0.494512"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-05-25T22:11:08.563125" level="INFO">Typing text 'secret_sauce' into text field 'id:password'.</msg>
+<arg>id:password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-25T22:11:08.562446" elapsed="0.286442"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-05-25T22:11:08.850933" level="INFO">Clicking button 'id:login-button'.</msg>
+<arg>id:login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-05-25T22:11:08.850152" elapsed="0.344947"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-05-25T22:11:09.558332" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="mi_captura.png"&gt;&lt;img src="mi_captura.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>mi_captura.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-05-25T22:11:09.230222" elapsed="0.328758"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-05-25T22:11:12.562646" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-05-25T22:11:09.560838" elapsed="3.002051"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-25T22:11:12.563861" elapsed="3.220660"/>
+</kw>
+<status status="PASS" start="2026-05-25T22:11:03.868200" elapsed="11.916838"/>
+</test>
+<status status="PASS" start="2026-05-25T22:11:03.057373" elapsed="12.729130"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Ejer" id="s1" pass="1" fail="0" skip="0">Ejer</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
